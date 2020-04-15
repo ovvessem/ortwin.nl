@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
-    "core-js": "^3.6.4",
+    "core-js": "^3.6.5",
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11"
   },
