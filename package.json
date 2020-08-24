@@ -10,8 +10,8 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
     "core-js": "^3.6.5",
-    "tailwindcss": "^1.7.1",
     "vue": "^2.6.12"
+    "tailwindcss": "^1.7.3",
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.0",
