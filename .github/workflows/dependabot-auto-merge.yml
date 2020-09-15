@@ -13,5 +13,4 @@ jobs:
     if: github.actor == github.event.repository.owner.login
     
     steps:
-      - name: Auto merge PR
       - uses: ahmadnassri/action-dependabot-auto-merge@v1
