@@ -3,8 +3,15 @@ name: auto-merge
 on:
   pull_request:
 
+  watch:
+    types: [started]
+
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
+    
+    if: github.actor == github.event.repository.owner.login
+    
     steps:
+      - name: Auto merge PR
       - uses: ahmadnassri/action-dependabot-auto-merge@v1
