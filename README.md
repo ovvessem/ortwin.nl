@@ -1,5 +1,7 @@
 # Ortwin van Vessem
 
+![auto-merge](https://github.com/ovvessem/ortwin.nl/workflows/auto-merge/badge.svg)
+
 ## Project setup
 ```
 npm install
